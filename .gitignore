@@ -216,3 +216,35 @@ music_rec.db
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ============ Custom additions for Music Rec Project ============
+
+# Data files (too large for git)
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model files
+models/*.pth
+models/*.pkl
+*.npz
+
+# Environment variables
+.env
+*.log
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# PyTorch
+*.pt
